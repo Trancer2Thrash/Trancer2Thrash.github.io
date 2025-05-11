@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
-# 如果你想使用GitHub Pages，请取消下面这行的注释
-# gem "github-pages", group: :jekyll_plugins
+# 使用GitHub Pages
+gem "github-pages", group: :jekyll_plugins
 
 # 如果你有特定版本的Jekyll，请取消下面这行的注释
 # gem "jekyll", "~> 4.2.0"
@@ -9,8 +9,7 @@ source "https://rubygems.org"
 # 这是你的主题
 gem "minima", "~> 2.5"
 
-# 如果你使用GitHub Pages，请用下面这行来代替上面的主题
-# gem "github-pages", group: :jekyll_plugins
+# 已在顶部启用 github-pages
 
 # Jekyll的插件
 group :jekyll_plugins do

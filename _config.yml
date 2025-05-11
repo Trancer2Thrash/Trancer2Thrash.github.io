@@ -1,10 +1,8 @@
 title: Trancer的博客
-email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  欢迎来到Trancer的个人博客，这里分享我的想法、创意和经验。
+  欢迎来到Trancer的个人博客
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://trancer.me" # the base hostname & protocol for your site
-twitter_username: yourtwitter
 github_username:  Trancer2Thrash
 
 # 构建设置
@@ -37,4 +35,4 @@ header_pages:
 # 作者信息
 author:
   name: Trancer
-  bio: 热爱技术与创新的开发者
+  bio: 自由与真理 无名的献身

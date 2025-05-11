@@ -1,0 +1,40 @@
+title: Trancer的博客
+email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  欢迎来到Trancer的个人博客，这里分享我的想法、创意和经验。
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://trancer.me" # the base hostname & protocol for your site
+twitter_username: yourtwitter
+github_username:  Trancer2Thrash
+
+# 构建设置
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# 排除文件
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# 分页设置
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+# 导航链接
+header_pages:
+  - about.md
+  - projects.md
+  - blog.md
+
+# 作者信息
+author:
+  name: Trancer
+  bio: 热爱技术与创新的开发者
